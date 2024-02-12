@@ -1,0 +1,78 @@
+{% include "global/partials/head_pInicial.html" %}
+<header>
+    <div class="container">
+        {% load static %}
+        <img src="{% static 'global/image/Cleiton.png' %}" alt="Dono" class="imagem">
+        <h1>Livrarias FuboK</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="destaques container">
+        <h2>Mais Vendidos</h2>
+        <div class="livros">
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+            {% load static %}
+            <img src="{% static 'global/image/Livro1.jpg' %}" alt="Livro 1">
+            <h3>Harry Potter Coleção Completa</h3>
+            <p class="autor">J. K. Rolling</p>
+        </div>
+    </section>
+
+    <section class="destaques container">
+        <h2>Lançamentos</h2>
+        <div class="livros">
+            <!-- Adicione livros da seção de lançamentos aqui -->
+        </div>
+    </section>
+
+    <section class="destaques container">
+        <h2>Escolha por Gênero</h2>
+        <div class="livros">
+            <!-- Adicione livros da seção de escolha por gênero aqui -->
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Livraria Online</p>
+    </div>
+</footer>
+</body>
+</html>

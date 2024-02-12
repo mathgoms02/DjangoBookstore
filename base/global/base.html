@@ -1,0 +1,23 @@
+{% include "global/partials/head.html" %}
+    <div class="log-in">
+      <div class="rectangle-login"></div>
+      <input type="password" id="senha_user" name="Senha" class="input_senha">
+      <input type="text" id="nome_user" name="Usuario" class="input_usuario">
+      <div class="label_usuario">Nome de usuário ou e-mail:</div>
+      <div class="senha">Senha:</div>
+      <a href="{% url "pagina_inicial" %}"><button id="botao2" class="botao_login">LOGIN</button></a>
+      <ul>
+        <li class="label_cadastre">Não tem uma conta?<br><a href="#" aria-label="Clique para se cadastrar"><b>Cadastre-se<b></a></li>
+      </ul>
+      <ul>
+          <a href="#" class="esqueci-minha-senha">Esqueci minha senha</a>
+      </ul>
+      <div class="bem-vindo">Bem vindo!</div>
+      <label class="manter-login">Manter Login
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+  </div>
+  
+</body>
+</html>

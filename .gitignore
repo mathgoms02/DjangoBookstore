@@ -1,0 +1,12 @@
+# Arquivos e pastas para serem ignorados pelo Git
+
+# Ambiente Virtual
+venv/
+
+# Arquivos de configuração local
+.env
+.venv
+
+# Outros arquivos que você deseja ignorar
+*.sqlite3
+*.pyc

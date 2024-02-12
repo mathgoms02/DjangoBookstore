@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+
+/* Estilos gerais */
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(95, 94, 93);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Raleway';
+    margin: 0;
+    font-size: 52px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+/* Estilos para a seção de destaques */
+.destaques {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destaques h2 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.livros {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd transparent;
+}
+
+.livros::-webkit-scrollbar {
+    width: 8px;
+}
+
+.livros::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+}
+
+.livro {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.livro:hover {
+    transform: translateY(-5px);
+}
+
+.livro img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.livro h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.livro .autor {
+    color: #555;
+    display: block;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.imagem {
+    border-radius: 120px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 20%);
+
+}
